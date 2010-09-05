@@ -1,0 +1,10 @@
+Simple blackjack game written in Verilog HDL for the Altera DE-2 Delta FPGA board.
+Uses the onboard LCD with HD44780 controller for displaying various messages.
+
+FPGA: Cyclone II EP2C35 F672C6
+
+Project written with Quartus II. Also Modelsim 6.5d was used for testing. The pin
+assignments are located in 'atom_netlists/blackjack_lcd.v' and can be imported in
+Quartus II.
+
+Register transfer level (RTL) style of coding.
